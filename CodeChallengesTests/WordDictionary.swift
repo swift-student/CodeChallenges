@@ -140,7 +140,7 @@ class WordDictionaryTests: XCTestCase {
         XCTAssertTrue(sut.search("h.l.o"))
     }
     
-    func testSearchWithMultipleTerms() {
+    func test_searchWithMultipleTerms() {
         // given
         let sut = WordDictionary()
         
@@ -158,7 +158,7 @@ class WordDictionaryTests: XCTestCase {
         XCTAssertTrue(sut.search("fly"))
     }
     
-    func testFuzzySearchWithMultipleTerms() {
+    func test_fuzzySearchWithMultipleTerms() {
         // given
         let sut = WordDictionary()
         
@@ -176,7 +176,7 @@ class WordDictionaryTests: XCTestCase {
         XCTAssertTrue(sut.search(".or.e"))
     }
     
-    func testFuzzySearchWithMultipleTerms2() {
+    func test_fuzzySearchWithMultipleTerms2() {
         // given
         let sut = WordDictionary()
         
