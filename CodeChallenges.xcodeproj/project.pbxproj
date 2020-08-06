@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		0491551E24D9A8DF000F7B97 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0491551D24D9A8DF000F7B97 /* main.swift */; };
 		0491553D24D9AA8B000F7B97 /* Palindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0491553C24D9AA8B000F7B97 /* Palindrome.swift */; };
+		0491554124D9AED9000F7B97 /* PowerOfFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0491554024D9AED9000F7B97 /* PowerOfFour.swift */; };
+		0491554324DADD7C000F7B97 /* WordDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0491554224DADD7C000F7B97 /* WordDictionary.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +31,8 @@
 		0491553424D9AA0B000F7B97 /* CodeChallengesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeChallengesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0491553824D9AA0C000F7B97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0491553C24D9AA8B000F7B97 /* Palindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Palindrome.swift; sourceTree = "<group>"; };
+		0491554024D9AED9000F7B97 /* PowerOfFour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerOfFour.swift; sourceTree = "<group>"; };
+		0491554224DADD7C000F7B97 /* WordDictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordDictionary.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,8 @@
 			children = (
 				0491553824D9AA0C000F7B97 /* Info.plist */,
 				0491553C24D9AA8B000F7B97 /* Palindrome.swift */,
+				0491554024D9AED9000F7B97 /* PowerOfFour.swift */,
+				0491554224DADD7C000F7B97 /* WordDictionary.swift */,
 			);
 			path = CodeChallengesTests;
 			sourceTree = "<group>";
@@ -182,6 +188,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0491554124D9AED9000F7B97 /* PowerOfFour.swift in Sources */,
+				0491554324DADD7C000F7B97 /* WordDictionary.swift in Sources */,
 				0491553D24D9AA8B000F7B97 /* Palindrome.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
