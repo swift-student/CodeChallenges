@@ -11,6 +11,7 @@
 		0491553D24D9AA8B000F7B97 /* Palindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0491553C24D9AA8B000F7B97 /* Palindrome.swift */; };
 		0491554124D9AED9000F7B97 /* PowerOfFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0491554024D9AED9000F7B97 /* PowerOfFour.swift */; };
 		0491554324DADD7C000F7B97 /* WordDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0491554224DADD7C000F7B97 /* WordDictionary.swift */; };
+		0491554524DC6FF4000F7B97 /* FindDuplicatesInArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0491554424DC6FF4000F7B97 /* FindDuplicatesInArray.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +34,7 @@
 		0491553C24D9AA8B000F7B97 /* Palindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Palindrome.swift; sourceTree = "<group>"; };
 		0491554024D9AED9000F7B97 /* PowerOfFour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerOfFour.swift; sourceTree = "<group>"; };
 		0491554224DADD7C000F7B97 /* WordDictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordDictionary.swift; sourceTree = "<group>"; };
+		0491554424DC6FF4000F7B97 /* FindDuplicatesInArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindDuplicatesInArray.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				0491553C24D9AA8B000F7B97 /* Palindrome.swift */,
 				0491554024D9AED9000F7B97 /* PowerOfFour.swift */,
 				0491554224DADD7C000F7B97 /* WordDictionary.swift */,
+				0491554424DC6FF4000F7B97 /* FindDuplicatesInArray.swift */,
 			);
 			path = CodeChallengesTests;
 			sourceTree = "<group>";
@@ -191,6 +194,7 @@
 				0491554124D9AED9000F7B97 /* PowerOfFour.swift in Sources */,
 				0491554324DADD7C000F7B97 /* WordDictionary.swift in Sources */,
 				0491553D24D9AA8B000F7B97 /* Palindrome.swift in Sources */,
+				0491554524DC6FF4000F7B97 /* FindDuplicatesInArray.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
