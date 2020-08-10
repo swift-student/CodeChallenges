@@ -49,7 +49,7 @@ import XCTest
 
 // MARK: - Solution
 
-class CharacterNode {
+fileprivate class CharacterNode {
     
     var isTerminatingCharacter = false
     var nextNodes: [Character: CharacterNode] = [:]
@@ -88,7 +88,7 @@ class CharacterNode {
     }
 }
 
-class WordDictionary {
+private class WordDictionary {
     
     let entryNode = CharacterNode()
     

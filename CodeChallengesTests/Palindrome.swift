@@ -38,7 +38,7 @@ import XCTest
 
 // MARK: - Solution
  
-func isPalindrome(_ s: String) -> Bool {
+private func isPalindrome(_ s: String) -> Bool {
     guard !s.isEmpty else { return true }
 
     var front = s.startIndex
@@ -68,7 +68,7 @@ func isPalindrome(_ s: String) -> Bool {
 }
 
 // A more succinct, but less performant version
-func isPalindrome2(_ s: String) -> Bool {
+private func isPalindrome2(_ s: String) -> Bool {
     let stringArray = Array(s.filter { $0.isLetter || $0.isNumber }.lowercased())
     return stringArray == stringArray.reversed()
 }

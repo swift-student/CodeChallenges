@@ -50,6 +50,7 @@ private func findDuplicates(_ nums: [Int]) -> [Int] {
 }
 
 // MARK: - Plan 2
+
 // The input array has a special requirement though in that each integer is going to be in the range of 1...n
 // We will first create a mutable copy of the input array
 
@@ -80,7 +81,6 @@ private func findDuplicates2(_ nums: [Int]) -> [Int] {
     
     return result
 }
-
 
 // MARK: - Tests
 

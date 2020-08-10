@@ -35,7 +35,7 @@ import XCTest
 
 // MARK: - Solution
 
-func isPowerOfFour(_ num: Int) -> Bool {
+private func isPowerOfFour(_ num: Int) -> Bool {
     return num.nonzeroBitCount == 1 && num.trailingZeroBitCount % 2 == 0
 }
 
