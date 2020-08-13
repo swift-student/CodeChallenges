@@ -40,7 +40,7 @@
 		0491554224DADD7C000F7B97 /* WordDictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordDictionary.swift; sourceTree = "<group>"; };
 		0491554424DC6FF4000F7B97 /* FindDuplicatesInArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindDuplicatesInArray.swift; sourceTree = "<group>"; };
 		0491554624DD0761000F7B97 /* FizzBuzz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzz.swift; sourceTree = "<group>"; };
-		04FEE1B924E4E51A00F51D69 /* Pangram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pangram.swift; sourceTree = SOURCE_ROOT; };
+		04FEE1B924E4E51A00F51D69 /* Pangram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Pangram.swift; path = CodeChallengesTests/Pangram.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
