@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		047D5F6125222B050027721C /* SubarrayProductLessThanK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047D5F6025222B050027721C /* SubarrayProductLessThanK.swift */; };
 		0480C93424E1841B0073EA95 /* ExcelColumns.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0480C93324E1841B0073EA95 /* ExcelColumns.swift */; };
 		0491551E24D9A8DF000F7B97 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0491551D24D9A8DF000F7B97 /* main.swift */; };
 		0491553D24D9AA8B000F7B97 /* Palindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0491553C24D9AA8B000F7B97 /* Palindrome.swift */; };
@@ -31,6 +32,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		047D5F6025222B050027721C /* SubarrayProductLessThanK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubarrayProductLessThanK.swift; sourceTree = "<group>"; };
 		0480C93324E1841B0073EA95 /* ExcelColumns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExcelColumns.swift; sourceTree = "<group>"; };
 		0491551A24D9A8DF000F7B97 /* CodeChallenges */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CodeChallenges; sourceTree = BUILT_PRODUCTS_DIR; };
 		0491551D24D9A8DF000F7B97 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 				04D6D72D24EAB21A0003A585 /* DistributeCandies.swift */,
 				0480C93324E1841B0073EA95 /* ExcelColumns.swift */,
 				0491554424DC6FF4000F7B97 /* FindDuplicatesInArray.swift */,
+				047D5F6025222B050027721C /* SubarrayProductLessThanK.swift */,
 			);
 			path = CodeChallengesTests;
 			sourceTree = "<group>";
@@ -207,6 +210,7 @@
 				0480C93424E1841B0073EA95 /* ExcelColumns.swift in Sources */,
 				0491554724DD0761000F7B97 /* FizzBuzz.swift in Sources */,
 				04FEE1BA24E4E51A00F51D69 /* Pangram.swift in Sources */,
+				047D5F6125222B050027721C /* SubarrayProductLessThanK.swift in Sources */,
 				0491554124D9AED9000F7B97 /* PowerOfFour.swift in Sources */,
 				0491554324DADD7C000F7B97 /* WordDictionary.swift in Sources */,
 				0491553D24D9AA8B000F7B97 /* Palindrome.swift in Sources */,
