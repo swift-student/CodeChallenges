@@ -14,6 +14,7 @@
 		0491554324DADD7C000F7B97 /* WordDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0491554224DADD7C000F7B97 /* WordDictionary.swift */; };
 		0491554524DC6FF4000F7B97 /* FindDuplicatesInArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0491554424DC6FF4000F7B97 /* FindDuplicatesInArray.swift */; };
 		0491554724DD0761000F7B97 /* FizzBuzz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0491554624DD0761000F7B97 /* FizzBuzz.swift */; };
+		04D6D72E24EAB21B0003A585 /* DistributeCandies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D6D72D24EAB21A0003A585 /* DistributeCandies.swift */; };
 		04FEE1BA24E4E51A00F51D69 /* Pangram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FEE1B924E4E51A00F51D69 /* Pangram.swift */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +41,7 @@
 		0491554224DADD7C000F7B97 /* WordDictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordDictionary.swift; sourceTree = "<group>"; };
 		0491554424DC6FF4000F7B97 /* FindDuplicatesInArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindDuplicatesInArray.swift; sourceTree = "<group>"; };
 		0491554624DD0761000F7B97 /* FizzBuzz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzz.swift; sourceTree = "<group>"; };
+		04D6D72D24EAB21A0003A585 /* DistributeCandies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistributeCandies.swift; sourceTree = "<group>"; };
 		04FEE1B924E4E51A00F51D69 /* Pangram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Pangram.swift; path = CodeChallengesTests/Pangram.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -96,6 +98,7 @@
 				0491554024D9AED9000F7B97 /* PowerOfFour.swift */,
 				0491554224DADD7C000F7B97 /* WordDictionary.swift */,
 				0491554624DD0761000F7B97 /* FizzBuzz.swift */,
+				04D6D72D24EAB21A0003A585 /* DistributeCandies.swift */,
 				0480C93324E1841B0073EA95 /* ExcelColumns.swift */,
 				0491554424DC6FF4000F7B97 /* FindDuplicatesInArray.swift */,
 			);
@@ -200,6 +203,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04D6D72E24EAB21B0003A585 /* DistributeCandies.swift in Sources */,
 				0480C93424E1841B0073EA95 /* ExcelColumns.swift in Sources */,
 				0491554724DD0761000F7B97 /* FizzBuzz.swift in Sources */,
 				04FEE1BA24E4E51A00F51D69 /* Pangram.swift in Sources */,
