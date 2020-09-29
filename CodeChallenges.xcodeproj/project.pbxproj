@@ -15,6 +15,8 @@
 		0491554324DADD7C000F7B97 /* WordDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0491554224DADD7C000F7B97 /* WordDictionary.swift */; };
 		0491554524DC6FF4000F7B97 /* FindDuplicatesInArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0491554424DC6FF4000F7B97 /* FindDuplicatesInArray.swift */; };
 		0491554724DD0761000F7B97 /* FizzBuzz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0491554624DD0761000F7B97 /* FizzBuzz.swift */; };
+		04C1A58D25236BB200793ABD /* PrintLastLines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C1A58C25236BB200793ABD /* PrintLastLines.swift */; };
+		04C1A58F25236C3600793ABD /* PrintLastLines.txt in Resources */ = {isa = PBXBuildFile; fileRef = 04C1A58E25236C3600793ABD /* PrintLastLines.txt */; };
 		04D6D72E24EAB21B0003A585 /* DistributeCandies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D6D72D24EAB21A0003A585 /* DistributeCandies.swift */; };
 		04FEE1BA24E4E51A00F51D69 /* Pangram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FEE1B924E4E51A00F51D69 /* Pangram.swift */; };
 /* End PBXBuildFile section */
@@ -43,6 +45,8 @@
 		0491554224DADD7C000F7B97 /* WordDictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordDictionary.swift; sourceTree = "<group>"; };
 		0491554424DC6FF4000F7B97 /* FindDuplicatesInArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindDuplicatesInArray.swift; sourceTree = "<group>"; };
 		0491554624DD0761000F7B97 /* FizzBuzz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzz.swift; sourceTree = "<group>"; };
+		04C1A58C25236BB200793ABD /* PrintLastLines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintLastLines.swift; sourceTree = "<group>"; };
+		04C1A58E25236C3600793ABD /* PrintLastLines.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = PrintLastLines.txt; sourceTree = "<group>"; };
 		04D6D72D24EAB21A0003A585 /* DistributeCandies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistributeCandies.swift; sourceTree = "<group>"; };
 		04FEE1B924E4E51A00F51D69 /* Pangram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Pangram.swift; path = CodeChallengesTests/Pangram.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
@@ -98,6 +102,8 @@
 				0491553824D9AA0C000F7B97 /* Info.plist */,
 				0491553C24D9AA8B000F7B97 /* Palindrome.swift */,
 				0491554024D9AED9000F7B97 /* PowerOfFour.swift */,
+				04C1A58C25236BB200793ABD /* PrintLastLines.swift */,
+				04C1A58E25236C3600793ABD /* PrintLastLines.txt */,
 				0491554224DADD7C000F7B97 /* WordDictionary.swift */,
 				0491554624DD0761000F7B97 /* FizzBuzz.swift */,
 				04D6D72D24EAB21A0003A585 /* DistributeCandies.swift */,
@@ -188,6 +194,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04C1A58F25236C3600793ABD /* PrintLastLines.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,6 +220,7 @@
 				047D5F6125222B050027721C /* SubarrayProductLessThanK.swift in Sources */,
 				0491554124D9AED9000F7B97 /* PowerOfFour.swift in Sources */,
 				0491554324DADD7C000F7B97 /* WordDictionary.swift in Sources */,
+				04C1A58D25236BB200793ABD /* PrintLastLines.swift in Sources */,
 				0491553D24D9AA8B000F7B97 /* Palindrome.swift in Sources */,
 				0491554524DC6FF4000F7B97 /* FindDuplicatesInArray.swift in Sources */,
 			);
