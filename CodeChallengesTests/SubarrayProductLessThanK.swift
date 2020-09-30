@@ -79,7 +79,7 @@ private func numSubarrayProductLessThanK(_ nums: [Int], _ k: Int) -> Int {
             continue
         }
         
-        // As move the right index as far as possible while maintaining product < k
+        // Move the right index as far as possible while maintaining product < k
         while rightIndex < nums.count && product * nums[rightIndex] < k {
             incrementRight()
         }
