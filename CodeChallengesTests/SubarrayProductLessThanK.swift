@@ -91,8 +91,7 @@ private func numSubarrayProductLessThanK(_ nums: [Int], _ k: Int) -> Int {
     return count
 }
 
-class SubarrayProductLessThanK: XCTestCase {
-
+class SubarrayProductLessThanKTests: XCTestCase {
 
     func testExample() {
         let nums = [10, 5, 2, 6]
@@ -105,5 +104,4 @@ class SubarrayProductLessThanK: XCTestCase {
         let k = 10
         XCTAssertEqual(numSubarrayProductLessThanK(nums, k), 25)
     }
-
 }

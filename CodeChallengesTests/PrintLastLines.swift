@@ -50,7 +50,7 @@ private func printLast(nLines n: Int, of fileName: String) throws {
     print(lines.prefix(n).joined(separator: ", "))
 }
 
-class PrintLastLines: XCTestCase {
+class PrintLastLinesTests: XCTestCase {
     private let filename = "PrintLastLines"
     
     func testPrintLast3Lines() throws {

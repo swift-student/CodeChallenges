@@ -55,7 +55,7 @@ private func fizzBuzz() {
 // MARK: - Tests
 
 
-class FizzBuzz: XCTestCase {
+class FizzBuzzTests: XCTestCase {
     
     func testFizzBuzz() {
         fizzBuzz()
