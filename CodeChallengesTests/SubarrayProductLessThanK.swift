@@ -93,13 +93,13 @@ private func numSubarrayProductLessThanK(_ nums: [Int], _ k: Int) -> Int {
 
 class SubarrayProductLessThanKTests: XCTestCase {
 
-    func testExample() {
+    func testSubarrayCountForExampleArrayIs8() {
         let nums = [10, 5, 2, 6]
         let k = 100
         XCTAssertEqual(numSubarrayProductLessThanK(nums, k), 8)
     }
     
-    func testExample2() {
+    func testSubarrayCountForArrayIs25() {
         let nums = [1, 1, 1, 1, 11, 1, 1, 1, 1, 1]
         let k = 10
         XCTAssertEqual(numSubarrayProductLessThanK(nums, k), 25)

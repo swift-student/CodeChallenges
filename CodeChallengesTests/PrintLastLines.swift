@@ -40,7 +40,7 @@ import XCTest
 // MARK: - Solution
 
 private func printLast(nLines n: Int, of fileName: String) throws {
-    let bundle = Bundle(for: PrintLastLines.self)
+    let bundle = Bundle(for: PrintLastLinesTests.self)
     guard let fileURL = bundle.url(forResource: fileName, withExtension: ".txt") else {
         throw NSError(domain: "Could not open file with name \(fileName), no such file.", code: 0)
     }
