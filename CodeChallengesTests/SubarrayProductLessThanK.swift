@@ -91,6 +91,8 @@ private func numSubarrayProductLessThanK(_ nums: [Int], _ k: Int) -> Int {
     return count
 }
 
+// MARK: - Tests
+
 class SubarrayProductLessThanKTests: XCTestCase {
 
     func testSubarrayCountForExampleArrayIs8() {

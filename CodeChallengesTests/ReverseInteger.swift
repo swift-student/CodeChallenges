@@ -29,6 +29,7 @@ import XCTest
 //Assume we are dealing with an environment which could only store integers within the 32-bit signed integer range: [−231,  231 − 1]. For the purpose of this problem, assume that your function returns 0 when the reversed integer overflows.
 
 // MARK: - Plan
+
 // The most obvious way to solve this would involve converting the integer into a string,
 // then reversing the string, and finally converting the string back into an integer.
 
@@ -39,6 +40,7 @@ import XCTest
 // output = output * 10 + digit
 
 // MARK: - Solution
+
 private func reverse(_ x: Int) -> Int {
     var input = x
     var output = 0
@@ -57,6 +59,8 @@ private func reverse(_ x: Int) -> Int {
     
     return output
 }
+
+// MARK: - Tests
 
 class ReverseIntegerTests: XCTestCase {
 
