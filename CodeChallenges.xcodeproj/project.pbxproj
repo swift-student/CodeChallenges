@@ -18,6 +18,7 @@
 		04C1A58D25236BB200793ABD /* PrintLastLines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C1A58C25236BB200793ABD /* PrintLastLines.swift */; };
 		04C1A58F25236C3600793ABD /* PrintLastLines.txt in Resources */ = {isa = PBXBuildFile; fileRef = 04C1A58E25236C3600793ABD /* PrintLastLines.txt */; };
 		04D6D72E24EAB21B0003A585 /* DistributeCandies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D6D72D24EAB21A0003A585 /* DistributeCandies.swift */; };
+		04DD8FA925253356006027AF /* ReverseInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DD8FA825253356006027AF /* ReverseInteger.swift */; };
 		04FEE1BA24E4E51A00F51D69 /* Pangram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FEE1B924E4E51A00F51D69 /* Pangram.swift */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +49,7 @@
 		04C1A58C25236BB200793ABD /* PrintLastLines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintLastLines.swift; sourceTree = "<group>"; };
 		04C1A58E25236C3600793ABD /* PrintLastLines.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = PrintLastLines.txt; sourceTree = "<group>"; };
 		04D6D72D24EAB21A0003A585 /* DistributeCandies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistributeCandies.swift; sourceTree = "<group>"; };
+		04DD8FA825253356006027AF /* ReverseInteger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseInteger.swift; sourceTree = "<group>"; };
 		04FEE1B924E4E51A00F51D69 /* Pangram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Pangram.swift; path = CodeChallengesTests/Pangram.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -110,6 +112,7 @@
 				0480C93324E1841B0073EA95 /* ExcelColumns.swift */,
 				0491554424DC6FF4000F7B97 /* FindDuplicatesInArray.swift */,
 				047D5F6025222B050027721C /* SubarrayProductLessThanK.swift */,
+				04DD8FA825253356006027AF /* ReverseInteger.swift */,
 			);
 			path = CodeChallengesTests;
 			sourceTree = "<group>";
@@ -218,6 +221,7 @@
 				0491554724DD0761000F7B97 /* FizzBuzz.swift in Sources */,
 				04FEE1BA24E4E51A00F51D69 /* Pangram.swift in Sources */,
 				047D5F6125222B050027721C /* SubarrayProductLessThanK.swift in Sources */,
+				04DD8FA925253356006027AF /* ReverseInteger.swift in Sources */,
 				0491554124D9AED9000F7B97 /* PowerOfFour.swift in Sources */,
 				0491554324DADD7C000F7B97 /* WordDictionary.swift in Sources */,
 				04C1A58D25236BB200793ABD /* PrintLastLines.swift in Sources */,
