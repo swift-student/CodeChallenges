@@ -35,36 +35,30 @@ import XCTest
 // I could also get the digits one at a time by using modulo, putting them into an array,
 // then iterating backwards through the array, use the digits to construct the reversed integer.
 
+// Update: no need to use an array, simply add the digits to the ouput by saying
+// output = output * 10 + digit
 
 // MARK: - Solution
 private func reverse(_ x: Int) -> Int {
-    var digits: [Int] = []
     var input = x
+    var output = 0
     
-    // Get each digit using modulo, and store in digits array
+    // Get each digit using modulo and append to output
     while input != 0 {
         let digit: Int
         (input, digit) = input.quotientAndRemainder(dividingBy: 10)
-        digits.append(digit)
-    }
-    
-    var output = 0
-    
-    // Reverse the array and construct the ouput
-    for (index, digit) in digits.reversed().enumerated() {
-        output += digit * Int(pow(10, Double(index)))
+        output = output * 10 + digit
     }
     
     // Return 0 when number is outside 32-bit limits
-    guard output <= 0x7FFFFFFF && output >= -0x7FFFFFFF else {
+    guard output >= Int32.min && output <= Int32.max else {
         return 0
     }
     
     return output
 }
 
-class ReverseInteger: XCTestCase {
-
+class ReverseIntegerTests: XCTestCase {
 
     func test123ReversedIs321() throws {
         XCTAssertEqual(reverse(123), 321)
@@ -83,14 +77,6 @@ class ReverseInteger: XCTestCase {
     }
     
     func testReverseOverflowReturns0() {
-        XCTAssertEqual(reverse( 2_147_483_648), 0)
+        XCTAssertEqual(reverse( 2_147_483_008), 0)
     }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
-    }
-
 }
