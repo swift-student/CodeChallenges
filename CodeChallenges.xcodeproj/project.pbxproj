@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0430E928252BBC1100CA3FAF /* RecreateMin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0430E927252BBC1100CA3FAF /* RecreateMin.swift */; };
 		047D5F6125222B050027721C /* SubarrayProductLessThanK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047D5F6025222B050027721C /* SubarrayProductLessThanK.swift */; };
 		0480C93424E1841B0073EA95 /* ExcelColumns.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0480C93324E1841B0073EA95 /* ExcelColumns.swift */; };
 		0491551E24D9A8DF000F7B97 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0491551D24D9A8DF000F7B97 /* main.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0430E927252BBC1100CA3FAF /* RecreateMin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecreateMin.swift; sourceTree = SOURCE_ROOT; };
 		047D5F6025222B050027721C /* SubarrayProductLessThanK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubarrayProductLessThanK.swift; sourceTree = "<group>"; };
 		0480C93324E1841B0073EA95 /* ExcelColumns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExcelColumns.swift; sourceTree = "<group>"; };
 		0491551A24D9A8DF000F7B97 /* CodeChallenges */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CodeChallenges; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -104,6 +106,7 @@
 		0491553524D9AA0B000F7B97 /* CodeChallengesTests */ = {
 			isa = PBXGroup;
 			children = (
+				0430E927252BBC1100CA3FAF /* RecreateMin.swift */,
 				0491553824D9AA0C000F7B97 /* Info.plist */,
 				04FEE1B924E4E51A00F51D69 /* Pangram.swift */,
 				0491553C24D9AA8B000F7B97 /* Palindrome.swift */,
@@ -231,6 +234,7 @@
 				047D5F6125222B050027721C /* SubarrayProductLessThanK.swift in Sources */,
 				04DD8FA925253356006027AF /* ReverseInteger.swift in Sources */,
 				0491554124D9AED9000F7B97 /* PowerOfFour.swift in Sources */,
+				0430E928252BBC1100CA3FAF /* RecreateMin.swift in Sources */,
 				0491554324DADD7C000F7B97 /* WordDictionary.swift in Sources */,
 				04C1A58D25236BB200793ABD /* PrintLastLines.swift in Sources */,
 				0491553D24D9AA8B000F7B97 /* Palindrome.swift in Sources */,
