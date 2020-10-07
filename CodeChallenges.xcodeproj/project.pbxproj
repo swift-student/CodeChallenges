@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0430E928252BBC1100CA3FAF /* RecreateMin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0430E927252BBC1100CA3FAF /* RecreateMin.swift */; };
 		0430E95D252D107100CA3FAF /* Quicksort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0430E95C252D107100CA3FAF /* Quicksort.swift */; };
+		0430E960252E09FC00CA3FAF /* IsomorphicValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0430E95F252E09FC00CA3FAF /* IsomorphicValues.swift */; };
 		047D5F6125222B050027721C /* SubarrayProductLessThanK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047D5F6025222B050027721C /* SubarrayProductLessThanK.swift */; };
 		0480C93424E1841B0073EA95 /* ExcelColumns.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0480C93324E1841B0073EA95 /* ExcelColumns.swift */; };
 		0491551E24D9A8DF000F7B97 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0491551D24D9A8DF000F7B97 /* main.swift */; };
@@ -41,6 +42,7 @@
 /* Begin PBXFileReference section */
 		0430E927252BBC1100CA3FAF /* RecreateMin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecreateMin.swift; sourceTree = SOURCE_ROOT; };
 		0430E95C252D107100CA3FAF /* Quicksort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quicksort.swift; sourceTree = "<group>"; };
+		0430E95F252E09FC00CA3FAF /* IsomorphicValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsomorphicValues.swift; sourceTree = "<group>"; };
 		047D5F6025222B050027721C /* SubarrayProductLessThanK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubarrayProductLessThanK.swift; sourceTree = "<group>"; };
 		0480C93324E1841B0073EA95 /* ExcelColumns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExcelColumns.swift; sourceTree = "<group>"; };
 		0491551A24D9A8DF000F7B97 /* CodeChallenges */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CodeChallenges; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -125,6 +127,7 @@
 				04DD8FAA252592A0006027AF /* ContainerWithMostWater.swift */,
 				04DD8FAF25277F3F006027AF /* MissingNumbersInArray.swift */,
 				04DD8FA825253356006027AF /* ReverseInteger.swift */,
+				0430E95F252E09FC00CA3FAF /* IsomorphicValues.swift */,
 			);
 			path = CodeChallengesTests;
 			sourceTree = "<group>";
@@ -242,6 +245,7 @@
 				04C1A58D25236BB200793ABD /* PrintLastLines.swift in Sources */,
 				0491553D24D9AA8B000F7B97 /* Palindrome.swift in Sources */,
 				0430E95D252D107100CA3FAF /* Quicksort.swift in Sources */,
+				0430E960252E09FC00CA3FAF /* IsomorphicValues.swift in Sources */,
 				0491554524DC6FF4000F7B97 /* FindDuplicatesInArray.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
