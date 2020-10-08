@@ -46,49 +46,53 @@ import XCTest
 // MARK: - Solution
 
 // Original solution
-private func isomorphic2<T: Collection>(valueA: T, valueB: T) -> Bool where T.Element: Hashable {
-    guard valueA.count == valueB.count, valueA.count > 0 else { return false }
-    
-    var indicesForElementA: [T.Element: [Int]] = [:]
-    var indicesForElementB: [T.Element: [Int]] = [:]
-    
-    var iteratorA = valueA.makeIterator()
-    var iteratorB = valueB.makeIterator()
-    
-    var index = 0
-    var elementA = iteratorA.next()
-    var elementB = iteratorB.next()
-    
-    while elementA != nil && elementB != nil {
-        indicesForElementA[elementA!, default: []].append(index)
-        indicesForElementB[elementB!, default: []].append(index)
-        
-        guard indicesForElementA[elementA!] == indicesForElementB[elementB!] else {
-            return false
-        }
-        
-        index += 1
-        elementA = iteratorA.next()
-        elementB = iteratorB.next()
-    }
-    
-    return true
-}
+//private func isomorphic2<T: Collection>(valueA: T, valueB: T) -> Bool where T.Element: Hashable {
+//    guard valueA.count == valueB.count, valueA.count > 0 else { return false }
+//
+//    var indicesForElementA: [T.Element: [Int]] = [:]
+//    var indicesForElementB: [T.Element: [Int]] = [:]
+//
+//    var iteratorA = valueA.makeIterator()
+//    var iteratorB = valueB.makeIterator()
+//
+//    var index = 0
+//    var elementA = iteratorA.next()
+//    var elementB = iteratorB.next()
+//
+//    while elementA != nil && elementB != nil {
+//        indicesForElementA[elementA!, default: []].append(index)
+//        indicesForElementB[elementB!, default: []].append(index)
+//
+//        guard indicesForElementA[elementA!] == indicesForElementB[elementB!] else {
+//            return false
+//        }
+//
+//        index += 1
+//        elementA = iteratorA.next()
+//        elementB = iteratorB.next()
+//    }
+//
+//    return true
+//}
 
 // New solution after looking at Paul's and realizing my performance wasn't ideal
+// Also realized that I was testing with all strings and not Ints and Doubles, which aren't Collections
 // Switched to using a mapping rather than dictionaries of indices
 // Also use zip for clarity and brevity
-private func isomorphic<T: Collection>(valueA: T, valueB: T) -> Bool where T.Element: Hashable {
-    guard valueA.count == valueB.count else { return false } // not isomorphic if different lengths
-    var mapping: [T.Element: T.Element] = [:] // create mapping of elements from one value to the other
+private func isomorphic(valueA: Any, valueB: Any) -> Bool {
+    let arrayA = Array(String(describing: valueA))
+    let arrayB = Array(String(describing: valueB))
+    
+    guard arrayA.count == arrayA.count else { return false } // not isomorphic if different lengths
+    var mapping: [Character: Character] = [:] // create mapping of elements from one character to the other
 
-    for (elementA, elementB) in zip(valueA, valueB) { // use zip to iterate through both collections
-        if mapping[elementA] == nil { // if no mapping for a
-            if mapping.values.contains(elementB) { // if b is mapped to another a
+    for (characterA, characterB) in zip(arrayA, arrayB) { // use zip to iterate through both arrays
+        if mapping[characterA] == nil { // if no mapping for a
+            if mapping.values.contains(characterB) { // if b is mapped to another a
                 return false // then it's not isomorphic
             }
-            mapping[elementA] = elementB
-        } else if mapping[elementA] != elementB { // if the mapping for a is not b
+            mapping[characterA] = characterB
+        } else if mapping[characterA] != characterB { // if the mapping for a is not b
             return false // then it's not isomorphic
         }
     }
@@ -149,11 +153,11 @@ class IsomorphicValuesTests: XCTestCase {
     }
     
     func test_123123And456456_AreIsomorphic() {
-        XCTAssertTrue(isomorphic(valueA: "123123", valueB: "456456"))
+        XCTAssertTrue(isomorphic(valueA: [1, 2, 1, 2, 3], valueB: [4, 5, 4, 5, 6]))
     }
     
     func test_3point14159and2point03048_AreIsomorphic() {
-        XCTAssertTrue(isomorphic(valueA: "3.14159", valueB: "2.03048"))
+        XCTAssertTrue(isomorphic(valueA: 3.14159, valueB: 2.03048))
     }
 
     // Not isomorphic tests
@@ -175,7 +179,7 @@ class IsomorphicValuesTests: XCTestCase {
     }
 
     func test_112233And112211_AreNotIsomorphic() {
-        XCTAssertFalse(isomorphic(valueA: "112233", valueB: "112211"))
+        XCTAssertFalse(isomorphic(valueA: 112233, valueB: 112211))
     }
     
     // Performance tests
